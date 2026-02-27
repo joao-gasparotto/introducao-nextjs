@@ -1,30 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+import Image from "next/image";
+import styles from "./page.module.css";
 
-    <script>
-        function celsius(){
-            var f = document.getElementById('f').value
-            var c = (5 * (f-32)) / 9
-            alert(f + 'f convertidos para celsius é: ' + c)
-        }
-    </script>
+function Home() {
+  return (
+    <div>
+      <h1>React com Next JS</h1>
+    </div>
+  );
+}
 
-</head>
-<body>
-    
-    <h1>Conversor de Fahrenheit</h1>
-
-    <form action="form1" method="post "action="onclick">
-
-        <label>Fahrenheit: </label>
-        <input type="number" name="f" id="f">
-        <input type="button" value="Calcular" onclick="celsius()">
-
-    </form>
-
-</body>
-</html>
+export default Home;
