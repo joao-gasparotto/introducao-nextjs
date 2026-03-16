@@ -1,9 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-function Home() {
+function Exemplo02() {
   return (
-    <div className={styles.containerExemplo}>
+    <div className={styles.containerHome}>
       <h1>React com Next JS</h1>
       <h2>Aula de introdução</h2>
       <h3>Leiaute e Estilização</h3>
@@ -18,4 +18,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Exemplo02;

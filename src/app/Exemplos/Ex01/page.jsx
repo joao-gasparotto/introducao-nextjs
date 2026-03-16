@@ -1,4 +1,4 @@
-function exemplo01 () {
+function Exemplo01 () {
     return (
         <div>
             <h1>Exemplo 01</h1>
@@ -7,4 +7,4 @@ function exemplo01 () {
     )
 }
 
-export default exemplo01;
+export default Exemplo01;
