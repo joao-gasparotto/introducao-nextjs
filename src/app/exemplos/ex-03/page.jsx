@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from "react";
+import styles from "./page.module.css"
 
 export default function Exemplo03() {  
 
@@ -12,8 +13,18 @@ export default function Exemplo03() {
 
     return (
         <>
-            <label>{`Contador: ${num}`}</label>            
-            <label onClick={() => handleIncrementa()}>+1</label>
-        </>
+
+        <div className ={styles.all}>
+
+             <div className ={styles.container}>
+                     <label>{`Contador: ${num}`}</label>
+                
+                <div className ={styles.botao}>  
+                        <label onClick={() => handleIncrementa()}>+1</label>
+                        
+                </div>
+             </div>   
+        </div>
+        </> 
     );
 }
